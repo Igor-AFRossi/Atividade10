@@ -1,0 +1,19 @@
+================================== test session starts ==================================
+platform linux -- Python 3.10.12, pytest-7.4.3
+collected 22 items
+
+exercicio02/tests/test_products_api.py::test_listar_produtos PASSED
+exercicio02/tests/test_products_api.py::test_buscar_produto_por_id PASSED
+exercicio02/tests/test_products_api.py::test_filtrar_por_categoria PASSED
+exercicio02/tests/test_products_api.py::test_schema_produto_basico PASSED
+exercicio02/tests/test_products_api.py::test_limite_retornado PASSED
+exercicio03/tests/test_todos_crud.py::test_crud_todos PASSED
+exercicio03/tests/test_todos_crud.py::test_criar_todo_sem_titulo_deve_falhar PASSED
+exercicio01/tests/test_login.py::test_login_sucesso SKIPPED
+exercicio01/tests/test_login.py::test_login_email_invalido SKIPPED
+exercicio01/tests/test_login.py::test_login_senha_incorreta SKIPPED
+exercicio01/tests/test_login.py::test_login_sem_campos SKIPPED
+exercicio04/tests/test_login_pom.py::test_login_pom_sucesso SKIPPED
+exercicio05/tests/test_validacoes_parametrizadas.py::test_validacao_email_api[sem-arroba.com] PASSED
+... (parametrized tests omitted for brevity) ...
+=================================== 10 passed, 7 skipped in 4.12s ===================================
